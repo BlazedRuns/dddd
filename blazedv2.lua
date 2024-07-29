@@ -4807,7 +4807,7 @@ do
 			utility.drawings["Tracer"] = utility:drawObject("Line", {})
 			utility.drawings["Aim Assist FOV"] = utility:drawObject("Circle", {Visible = false, Radius = 8, Color = Color3.fromRGB(0,0,0), Filled = false})
 			utility.drawings["Sub"] = utility:drawObject("Text", {Outline = true, Text = "blaze", Color = Color3.new(1, 1, 1), Size = 13})
-			utility.drawings["Domain"] = utility:drawObject("Text", {Outline = true, Text = ".vip", Color = Color3.fromRGB(132, 108, 188), Size = 13})
+			utility.drawings["Domain"] = utility:drawObject("Text", {Outline = true, Text = ".lol", Color = Color3.fromRGB(132, 108, 188), Size = 13})
 			--
 			for i,v in pairs(bodyClone:GetDescendants()) do 
 				if v:IsA("BasePart") and v.Name ~= "HumanoidRootPart" then 
@@ -6260,7 +6260,7 @@ do
 	end 	
 end 
 
-Library:Notification("Loaded blaze.vip in " .. Floor((tick() - loadingTime) * 1000)  .."ms", 3, Library.Accent, flags["Notification Position"])
+Library:Notification("Loaded blaze.lol in " .. Floor((tick() - loadingTime) * 1000)  .."ms", 3, Library.Accent, flags["Notification Position"])
 Library:Notification("WARNING: MAKE SURE YOU ARE USING THE CORRECT ARGUMENT FOR THE TARGET AIM OR YOU WILL GET BANNED", 3, Library.Accent, 5, Color3.new(1, 0, 0), flags["Notification Position"])
 delay(3, function()
 	Library:Notification("Message from finobe\n Fixed several things including: Removing unsupported features, target aim, text on cursor, previous ragebot not working", 10, Library.Accent, flags["Notification Position"])
